@@ -13,4 +13,4 @@ Licence: Creative Commons Zero (CC0)
 
 # Tools
 
-The **NPM package** used for extract and convert the audio data into mp3 audio files can be found in a separate repository: https://github.com/robertoentringer/lod-audio
+The **NPM package** used for extract and convert the audio data into mp3 audio files can be found in here: https://github.com/robertoentringer/lod-audio
