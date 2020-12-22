@@ -1,0 +1,22 @@
+{
+  "name": "lod-mp3-mirror",
+  "version": "0.0.1",
+  "description": "Mirror of the audio data of the \"Lëtzebuerger Online Dictionnaire\" (LOD).",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "rm -fr *-lod-opendata",
+    "start": "npx lod-audio",
+    "poststart" : "git tag $(basename $(find . -type d -name '*-lod-opendata' -print -quit))"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertoentringer/lod-mp3-mirror.git"
+  },
+  "keywords": [],
+  "author": "Roberto Entringer <r.entringer@gmail.com> (https://robertoentringer.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertoentringer/lod-mp3-mirror/issues"
+  },
+  "homepage": "https://github.com/robertoentringer/lod-mp3-mirror#readme"
+}
