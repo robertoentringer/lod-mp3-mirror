@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "rm -fr *-lod-opendata",
     "start": "npx lod-audio",
-    "poststart" : "git tag $(basename $(find . -type d -name '*-lod-opendata' -print -quit))"
+    "poststart" : "version=\"$(basename $(find . -type d -name '*-lod-opendata' -print -quit))\" && git tag \"$version\" --force && git add -A && git commit -m \"$version\" && git push --tag --force"
   },
   "repository": {
     "type": "git",
