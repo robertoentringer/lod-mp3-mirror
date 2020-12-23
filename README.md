@@ -8,10 +8,10 @@ https://github.com/robertoentringer/lod-mp3-mirror/tags
 
 ## Data source
 
-Data from the "Lëtzebuerger Online Dictionnaire" (LOD)
-Website: http://www.lod.lu
-Source: https://data.public.lu/fr/datasets/letzebuerger-online-dictionnaire-raw-data/
-Licence: Creative Commons Zero (CC0)
+Data from the "Lëtzebuerger Online Dictionnaire" (LOD)<br>
+Website: http://www.lod.lu)<br>
+Source: https://data.public.lu/fr/datasets/letzebuerger-online-dictionnaire-raw-data/)<br>
+Licence: Creative Commons Zero (CC0))<br>
 
 [![screenshot.png](screenshot.png)](https://data.public.lu/fr/datasets/letzebuerger-online-dictionnaire-raw-data/)
 
